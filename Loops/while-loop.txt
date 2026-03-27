@@ -1,0 +1,17 @@
+while (condition) {
+
+    //do something
+
+}
+
+do {
+
+    //do something
+
+} while (condition);
+
+
+1.In while loop first we check condition the perform the action.
+2.In do-while loop first we perform then we cjeck the condition.
+3.In do-while loop if condition is true or false, the loop will perform at least one time.
+4.In while loop the condion become false then the loop does not perform any action.

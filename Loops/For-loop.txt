@@ -1,0 +1,17 @@
+For (Initialiazation; condition; updation) {
+
+    //do something
+
+}
+
+Initialiazation is counter variable
+condition used for terminate the code
+updation is the updating the the counter variable
+
+for example:- 
+
+Initialiazation :- int i = 0;
+condition :- i > 0
+updation :- i++ or i = i + 1
+
+if we donot use the terminating condition the code never stops or the for loop is never stops, this is called infinite loop.
