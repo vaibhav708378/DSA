@@ -1,0 +1,58 @@
+pattern - 1:
+    1.The rows is managed by the Outer loop.
+    2.The cloumns are managed by the inner loop.
+
+    Output :-
+    *****
+    *****
+    *****
+    *****
+    //it will depends on the value are given by the user
+
+pattern - 2 :
+    if( i == 1 || j == 1 || i == n || j == m ):
+    then it will print "*".
+
+    Other wise it will print empty space (" ").
+
+    Output :-
+    *****
+    *   *
+    *   *
+    *****
+
+pattern - 3:
+    1.Only rows are given.
+    2.Columns is depends on the rows.
+    3.The pattern caleed as Half Pyramid.
+
+    Output :-
+    *
+    **
+    ***
+    ****
+    
+pattern - 4:
+    1.Only rows are given.
+    2.in for loop the i = n to 1.
+    3.then in inner loop the j = 1 to i
+
+    Output :-
+    ****
+    ***
+    **
+    *
+
+pattern - 5:
+    1.We craete seperate loops for space and star
+    2.in space loop the j =1 to n-1
+    3. in star loop the j = 1 to i
+
+    Output :-
+       *
+      **
+     ***
+    ****
+
+pattern - 6:
+    
