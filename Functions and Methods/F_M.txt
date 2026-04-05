@@ -15,5 +15,5 @@ Questions:-
 
 3. make a fuctions to multiply 2 numbers to return the product
 
-4. Find the factorial of 2 numbers
+4. Find the factorial of a numbers
 
