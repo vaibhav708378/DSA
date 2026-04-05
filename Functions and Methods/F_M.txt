@@ -1,0 +1,19 @@
+Functions and Methos
+
+Syntax:- 
+
+public static returntype fuctionName(type arg1, type arg2,...) {
+    //operations
+
+}
+
+Questions:-
+
+1. Print a given name in a fuction 
+
+2. Make a to add 2 numbers and return the sum
+
+3. make a fuctions to multiply 2 numbers to return the product
+
+4. Find the factorial of 2 numbers
+
