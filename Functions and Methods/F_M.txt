@@ -17,3 +17,7 @@ Questions:-
 
 4. Find the factorial of a numbers
 
+5.Make a function to check if a given number n is even or not
+
+6.Make a function to print the table of a given number n.
+
