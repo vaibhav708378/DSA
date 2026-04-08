@@ -23,6 +23,6 @@ public class Ques7 {
         } while (choice == 'y');
 
         System.out.printf("Positives: %d, Negatives: %d, Zeros: %d%n", pos, neg, zero);
-        scanner.close();
+        
     }
 }
