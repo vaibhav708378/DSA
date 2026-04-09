@@ -6,13 +6,20 @@ Array:-
     Math = 97
     Physics = 92
 
-Defining a array:-
+Defining a array (1):-
     type[] arrayName = new type[size];
     ex:-
 
-    int[] marks = new int[3];
+    int[] marks = new int[3]; OR
+    int marks[] = new int[3];
 
     marks[0] = 95
     marks[1] = 97
     marks[2] = 92
 
+Defining a array (2) :-
+    type[] arrayNmae = {1, 2, 3, 4, 5, 6};
+    ex:- 
+
+    int[] marks = {95, 97, 92}; OR
+    int marks[] = {95, 97, 92};
