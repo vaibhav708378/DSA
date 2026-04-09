@@ -1,0 +1,18 @@
+Array:-
+    List of item of same data type.
+    To address the element of array we use index, the index in java starts from 0 to n-1.
+    ex:-
+    English = 95
+    Math = 97
+    Physics = 92
+
+Defining a array:-
+    type[] arrayName = new type[size];
+    ex:-
+
+    int[] marks = new int[3];
+
+    marks[0] = 95
+    marks[1] = 97
+    marks[2] = 92
+
