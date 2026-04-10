@@ -1,0 +1,9 @@
+Declaration:-
+    type[][] arrayName = new type[rows][cloumns]; OR
+    type arrayName[][] = new type[rows][columns];
+
+    ex:-
+        int[][] numbers = new int[3][5]; OR
+        int numbers[][] = new int[3][5];
+
+        
