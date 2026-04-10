@@ -6,4 +6,7 @@ Declaration:-
         int[][] numbers = new int[3][5]; OR
         int numbers[][] = new int[3][5];
 
-        
+Defination :-
+    A 2D array is a data structure arranged in rows and columns,
+    essentially acting as an "array of arrays" to store data in
+    a table or matrix format.
