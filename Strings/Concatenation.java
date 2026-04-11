@@ -15,5 +15,10 @@ public class Concatenation {
 
         System.out.println("Full Name Is: "+ fullName);
         System.out.println(fullName.length());
+
+        //charAt
+        for(int i = 0; i < fullName.length(); i++) {
+            System.out.println(fullName.charAt(i));
+        }
     }
 }
