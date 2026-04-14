@@ -8,5 +8,6 @@ public class SB2 {
         sb.append("o");
 
         System.out.println(sb);
+        System.out.println(sb.length());
     }
 }
