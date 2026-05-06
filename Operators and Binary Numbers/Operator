@@ -62,3 +62,24 @@ Tyeps of Operators:
             A>>1
             result = 0010
 
+6. Assignment Operators:- 
+    = :- Assig the values. 
+         example :- A = 10
+                    B = 5
+                    A = B
+
+    += :- example :
+            a = a + b OR
+            a += b
+
+    -= :- example :
+            a = a - b OR
+            a -= b
+    
+    *= :- example :
+            a = a * b OR
+            a *= b
+
+    /= :- example :
+            a = a / b OR
+            a /= b
