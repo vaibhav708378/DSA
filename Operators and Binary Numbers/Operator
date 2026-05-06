@@ -1,0 +1,46 @@
+Operators:-
+    Symbol that tell compiler to perform some operations
+
+Tyeps of Operators:
+
+1. Arithmatic Operators:
+ a. Binary Operators:-
+    +, -, *, /, %.
+ 
+ b. Unary Operators:
+    ++, --
+
+2. Increment Operators:-
+ a. Pre increment:-
+    ++a 
+
+ b. Post increment:-
+    a++ 
+
+ c. Post decrement:-
+    a--
+
+ d. Pre decrement:-
+    --a 
+
+3. Relational Operators:
+    == :- Equal to
+    != :- Not Equal to
+    > :- Greater than 
+    < :- less than
+    >= :- Greater than eual to
+    <= :- less than equal to
+
+4. Logical Operators:- 
+    && :- Logical AND :-
+        If statement 1 and Statement 2 Both are true then
+        result will be True, Otherwise the result will be False
+
+    || :- Logical OR :-
+        If the statement 1 and statement 2 both are False then
+        the result will be False, Otherwise the result will be True
+
+    ! :- Logical NOT :-
+        If the statement is True it will become False,
+        If the statement is False it will become True.
+
