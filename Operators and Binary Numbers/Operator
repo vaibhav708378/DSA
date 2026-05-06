@@ -44,3 +44,21 @@ Tyeps of Operators:
         If the statement is True it will become False,
         If the statement is False it will become True.
 
+5. Bitwise Operators:-
+
+    & = Binary AND
+    | = Binary OR
+    ^ = Binary XOR (Similar Values :- Flase / 0, Different Values :- True / 1)
+    ~ = Binary one's complement (Convertors 1 to 0, and 0 to 1)
+    << = Binary left Shift :- 
+        ex :
+            A = 0101
+            A<<1
+            result = 1010
+
+    >> == Binary Right Shift :-
+        ex :
+            A = 0101
+            A>>1
+            result = 0010
+
