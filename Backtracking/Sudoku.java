@@ -1,5 +1,30 @@
 public class Sudoku {
 
+    public boolean isSafe(char[][] board, int row, int cols, int number) {
+        //row and columns
+        for(int i = 0; i < board.length; i++) {
+            if (board[i][cols] == (char) (number + '0')) {
+                return false;
+            }
+            if (board[row][i] == (char) (number + '0')) {
+                return false;
+            }
+        }
+
+        //Grid
+        int srow = (row / 3) * 3;
+        int scols = (cols / 3) * 3;
+        
+        for(int i = srow; i < srow + 3; i++) {
+            for(int j = scols; j < scols; j++) {
+                if (board[i][j] == (char) (number + '0')) {
+                    return false;
+                }
+            }
+        }
+        return true;
+    }
+
     public boolean helper(char[][] board, int row, int cols) {
 
         if (row == board.length) {
