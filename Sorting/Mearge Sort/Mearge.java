@@ -29,6 +29,18 @@ public class Mearge {
 
     }
 
+    public static void divide(int a[], int si, int ei) {
+
+        if (si >= ei) {
+            return;
+        }
+
+        int mid = si + (ei - si)/2;
+        divide(a, si, ei);
+        divide(a, mid + 1, ei);
+        conquer(a, mid, si, ei);
+    }
+
     public static void main(String[] args) {
         
     }
