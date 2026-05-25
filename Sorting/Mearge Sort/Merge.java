@@ -1,4 +1,4 @@
-public class Mearge {
+public class Merge {
 
     public static void conquer(int a[], int mid, int si, int ei) {
         int mearged[] = new int[ei - si + 1];
@@ -40,8 +40,16 @@ public class Mearge {
         divide(a, mid + 1, ei);
         conquer(a, mid, si, ei);
     }
-
     public static void main(String[] args) {
-        
+        int a[] = {4, 5, 8, 9, 0, 2};
+        int n = a.length;
+
+        divide(a, 0, n - 1);
+
+        // Print
+        for(int i = 0; i < a.length; i++) {
+            System.out.print(a[i] + " ");
+        }
+        System.out.println();
     }
 }
